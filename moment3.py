@@ -3,12 +3,12 @@ from time import localtime # import för funktion
 
 timme = localtime().tm_hour # skapar variabel timme för timme nu i verkliga livet
 
-if timme >= 16: 
-    print("skoldagen är slut") # om lokala tiden timmar är mer än eller lika med 16 kommer den printa skoldagen är slut
-elif timme < 16:
-    print("skoldagen pågår")
-elif timme < 8:
-    print("skoldagen har inte börjat")
+for i in range(1, 25)
+ timme += 1
+    if timme >= 8 and timme <= 17:
+        print('skolan pågår')
+    if timme >= 17 and timme <=24:
+        print('skolan är slut')
 
 
 namn = input("vad heter du")
